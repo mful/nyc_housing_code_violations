@@ -1,0 +1,7 @@
+chalkboard.*
+.byebug_history
+.rspec
+.DS_Store
+**/*/.DS_Store
+data/Housing_Maintenance_Code_Violations.csv
+**/*/*.numbers

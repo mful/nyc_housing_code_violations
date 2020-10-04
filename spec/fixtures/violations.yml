@@ -1,0 +1,250 @@
+:open:
+  :filed_during_pandemic:
+    :overdue:
+      :violationid: 10002784
+      :buildingid: 81891
+      :registrationid: 206956
+      :boroid: 2
+      :borough: BRONX
+      :housenumber: 2874
+      :lowhousenumber: 2874
+      :highhousenumber: 2874
+      :streetname: GRAND CONCOURSE
+      :streetcode: 36420
+      :postcode: 10458
+      :apartment: D2
+      :story: 4
+      :block: 3305
+      :lot: 21
+      :class: A
+      :inspectiondate: 06/10/2020
+      :approveddate: 06/11/2013
+      :originalcertifybydate: 08/01/2020
+      :originalcorrectbydate: 07/18/2020
+      :newcertifybydate:
+      :newcorrectbydate:
+      :certifieddate:
+      :ordernumber: 508
+      :novid: 4707349
+      :novdescription: "SECTION 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR THE CEILINGS AND ALL WALLS  IN THE  ENTIRE APARTMENT  LOCATED AT APT D2, 4th STORY, 1st APARTMENT FROM SOUTH AT WEST"
+      :novissueddate: 10/15/2013
+      :currentstatusid: 21
+      :currentstatus: NOT COMPLIED WITH
+      :currentstatusdate: 09/17/2020
+      :novtype: Original
+      :violationstatus: Open
+      :latitude: 40.870656
+      :longitude: -73.890115
+      :communityboard: 7
+      :councildistrict: 15
+      :censustract: 40702
+      :bin: 2017173
+      :bbl: 2033050021
+      :nta: Bedford Park-Fordham North
+    :overdue_same_building:
+      :violationid: 100027841
+      :buildingid: 81891
+      :registrationid: 206956
+      :boroid: 2
+      :borough: BRONX
+      :housenumber: 2874
+      :lowhousenumber: 2874
+      :highhousenumber: 2874
+      :streetname: GRAND CONCOURSE
+      :streetcode: 36420
+      :postcode: 10458
+      :apartment: D2
+      :story: 4
+      :block: 3305
+      :lot: 21
+      :class: C
+      :inspectiondate: 06/20/2020
+      :approveddate: 06/21/2020
+      :originalcertifybydate: 08/11/2020
+      :originalcorrectbydate: 07/28/2020
+      :newcertifybydate:
+      :newcorrectbydate:
+      :certifieddate:
+      :ordernumber: 508
+      :novid: 4707349
+      :novdescription: "SECTION 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR THE CEILINGS AND ALL WALLS  IN THE  ENTIRE APARTMENT  LOCATED AT APT D2, 4th STORY, 1st APARTMENT FROM SOUTH AT WEST"
+      :novissueddate: 10/15/2013
+      :currentstatusid: 21
+      :currentstatus: NOT COMPLIED WITH
+      :currentstatusdate: 09/17/2020
+      :novtype: Original
+      :violationstatus: Open
+      :latitude: 40.870656
+      :longitude: -73.890115
+      :communityboard: 7
+      :councildistrict: 15
+      :censustract: 40702
+      :bin: 2017173
+      :bbl: 2033050021
+      :nta: Bedford Park-Fordham North
+    :not_overdue:
+      :violationid: 10002785
+      :buildingid: 81891
+      :registrationid: 206956
+      :boroid: 2
+      :borough: BRONX
+      :housenumber: 2874
+      :lowhousenumber: 2874
+      :highhousenumber: 2874
+      :streetname: GRAND CONCOURSE
+      :streetcode: 36420
+      :postcode: 10458
+      :apartment: D2
+      :story: 4
+      :block: 3305
+      :lot: 21
+      :class: A
+      :inspectiondate: 06/10/2020
+      :approveddate: 06/11/2013
+      :originalcertifybydate: 08/01/2050
+      :originalcorrectbydate: 07/18/2050
+      :newcertifybydate:
+      :newcorrectbydate:
+      :certifieddate:
+      :ordernumber: 509
+      :novid: 4707348
+      :novdescription: "SECTION 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR THE CEILINGS AND ALL WALLS  IN THE  ENTIRE APARTMENT  LOCATED AT APT D2, 4th STORY, 1st APARTMENT FROM SOUTH AT WEST"
+      :novissueddate: 10/15/2013
+      :currentstatusid: 21
+      :currentstatus: NOT COMPLIED WITH
+      :currentstatusdate: 09/17/2020
+      :novtype: Original
+      :violationstatus: Open
+      :latitude: 40.870656
+      :longitude: -73.890115
+      :communityboard: 7
+      :councildistrict: 15
+      :censustract: 40702
+      :bin: 2017173
+      :bbl: 2033050021
+      :nta: Bedford Park-Fordham North
+  :filed_pre_pandemic:
+    :overdue:
+      :violationid: 10002786
+      :buildingid: 81891
+      :registrationid: 206956
+      :boroid: 2
+      :borough: BRONX
+      :housenumber: 2874
+      :lowhousenumber: 2874
+      :highhousenumber: 2874
+      :streetname: GRAND CONCOURSE
+      :streetcode: 36420
+      :postcode: 10458
+      :apartment: D2
+      :story: 4
+      :block: 3305
+      :lot: 21
+      :class: C
+      :inspectiondate: 01/10/2020
+      :approveddate: 01/11/2013
+      :originalcertifybydate: 03/01/2020
+      :originalcorrectbydate: 02/18/2020
+      :newcertifybydate:
+      :newcorrectbydate:
+      :certifieddate:
+      :ordernumber: 508
+      :novid: 4707349
+      :novdescription: "SECTION 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR THE CEILINGS AND ALL WALLS  IN THE  ENTIRE APARTMENT  LOCATED AT APT D2, 4th STORY, 1st APARTMENT FROM SOUTH AT WEST"
+      :novissueddate: 10/15/2013
+      :currentstatusid: 21
+      :currentstatus: NOT COMPLIED WITH
+      :currentstatusdate: 09/17/2020
+      :novtype: Original
+      :violationstatus: Open
+      :latitude: 40.870656
+      :longitude: -73.890115
+      :communityboard: 7
+      :councildistrict: 15
+      :censustract: 40702
+      :bin: 2017173
+      :bbl: 2033050021
+      :nta: Bedford Park-Fordham North
+:closed:
+  :filed_during_pandemic:
+    :violationid: 10002787
+    :buildingid: 81891
+    :registrationid: 206956
+    :boroid: 2
+    :borough: BRONX
+    :housenumber: 2874
+    :lowhousenumber: 2874
+    :highhousenumber: 2874
+    :streetname: GRAND CONCOURSE
+    :streetcode: 36420
+    :postcode: 10458
+    :apartment: D2
+    :story: 4
+    :block: 3305
+    :lot: 21
+    :class: A
+    :inspectiondate: 06/10/2020
+    :approveddate: 06/11/2013
+    :originalcertifybydate: 08/01/2020
+    :originalcorrectbydate: 07/18/2020
+    :newcertifybydate:
+    :newcorrectbydate:
+    :certifieddate: 07/10/2020
+    :ordernumber: 508
+    :novid: 4707349
+    :novdescription: "SECTION 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR THE CEILINGS AND ALL WALLS  IN THE  ENTIRE APARTMENT  LOCATED AT APT D2, 4th STORY, 1st APARTMENT FROM SOUTH AT WEST"
+    :novissueddate: 10/15/2013
+    :currentstatusid: 21
+    :currentstatus: NOT COMPLIED WITH
+    :currentstatusdate: 09/17/2020
+    :novtype: Original
+    :violationstatus: Close
+    :latitude: 40.870656
+    :longitude: -73.890115
+    :communityboard: 7
+    :councildistrict: 15
+    :censustract: 40702
+    :bin: 2017173
+    :bbl: 2033050021
+    :nta: Bedford Park-Fordham North
+  :filed_pre_pandemic:
+    :violationid: 10002788
+    :buildingid: 81891
+    :registrationid: 206956
+    :boroid: 2
+    :borough: BRONX
+    :housenumber: 2874
+    :lowhousenumber: 2874
+    :highhousenumber: 2874
+    :streetname: GRAND CONCOURSE
+    :streetcode: 36420
+    :postcode: 10458
+    :apartment: D2
+    :story: 4
+    :block: 3305
+    :lot: 21
+    :class: A
+    :inspectiondate: 01/10/2020
+    :approveddate: 01/11/2013
+    :originalcertifybydate: 03/01/2020
+    :originalcorrectbydate: 02/18/2020
+    :newcertifybydate:
+    :newcorrectbydate:
+    :certifieddate: 02/27/2020
+    :ordernumber: 508
+    :novid: 4707349
+    :novdescription: "SECTION 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR THE CEILINGS AND ALL WALLS  IN THE  ENTIRE APARTMENT  LOCATED AT APT D2, 4th STORY, 1st APARTMENT FROM SOUTH AT WEST"
+    :novissueddate: 10/15/2013
+    :currentstatusid: 21
+    :currentstatus: NOT COMPLIED WITH
+    :currentstatusdate: 09/17/2020
+    :novtype: Original
+    :violationstatus: Close
+    :latitude: 40.870656
+    :longitude: -73.890115
+    :communityboard: 7
+    :councildistrict: 15
+    :censustract: 40702
+    :bin: 2017173
+    :bbl: 2033050021
+    :nta: Bedford Park-Fordham North
