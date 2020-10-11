@@ -80,6 +80,8 @@ CREATE TABLE IF NOT EXISTS buildings (
   overdue_mean_days_since_inspection    numeric(10) DEFAULT 0 NOT NULL,
   pre_pandemic_resolved_count           integer DEFAULT 0 NOT NULL,
   pre_pandemic_mean_resolution_days     numeric(10) DEFAULT 0 NOT NULL,
+  overdue_pre_pandemic_rate             double precision DEFAULT 0 NOT NULL,
+  overdue_since_pandemic_rate           double precision DEFAULT 0 NOT NULL,
   updated_at                            timestamp default current_timestamp
 );
 

@@ -14,7 +14,10 @@ COLUMNS = [
   'Resolved mean overdue time',
   'Resolved median overdue time',
   'Total overdue',
+  'Potentially overdue',
 ]
+
+IMPORT_DATE = Date.parse '2020-10-02'
 
 def median(violations, a, b)
   vals = violations.map do |v|
@@ -25,6 +28,18 @@ def median(violations, a, b)
   (vals[(len - 1) / 2] + vals[len / 2]) / 2.0
 end
 
+HousingViolation.where(
+  'certifieddate IS NOT NULL AND violationstatus = ? AND inspectiondate > ?',
+  'Open',
+  Date.parse('2020-03-16'),
+).count
+
+HousingViolation.where(
+  'certifieddate IS NOT NULL AND violationstatus = ? AND inspectiondate < ?',
+  'Open',
+  Date.parse('2020-01-01'),
+).count
+
 def build_row(date, operator)
   row = []
   # filed
@@ -32,7 +47,8 @@ def build_row(date, operator)
     "inspectiondate #{operator} ?", date).count
   # resolved
   row << HousingViolation.where(
-    "inspectiondate #{operator} ? AND violationstatus = ?",
+    "inspectiondate #{operator} ? AND (
+      certifieddate IS NOT NULL OR violationstatus = ?)",
     date,
     'Close'
   ).count
@@ -61,12 +77,21 @@ def build_row(date, operator)
     "inspectiondate #{operator} ? AND certifieddate IS NOT NULL AND certifieddate > originalcertifybydate",
     date
   ), :certifieddate, :originalcertifybydate)
+  # total overdue
   row << HousingViolation.where(
-    "inspectiondate #{operator} ? AND ((certifieddate IS NOT NULL AND certifieddate > originalcertifybydate) OR violationstatus = ?)",
+    "inspectiondate #{operator} ? AND (
+      (certifieddate IS NOT NULL AND certifieddate > originalcertifybydate)
+      OR (certifieddate IS NULL AND violationstatus = ? AND originalcertifybydate < ?))",
     date,
-    'Open'
+    'Open',
+    IMPORT_DATE
   ).count
-
+  # potentially overdue
+  row << HousingViolation.where(
+    "inspectiondate #{operator} ? AND originalcertifybydate < ?",
+    date,
+    IMPORT_DATE
+  ).count
   row
 end
 

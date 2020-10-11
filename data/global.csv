@@ -1,4 +1,4 @@
-Time period,Filed,Resolved,Mean resolution time,Median resolution time,Resolved overdue,Resolved mean overdue time,Resolved median overdue time,Total overdue
-2019,671032,401512,54,32.0,20191,233,16.0,277573
-Pandemic,175660,29075,36,26.0,1972,202,9.0,146315
-June-Sept,149799,18007,27,25.0,1384,13,9.0,131631
+Time period,Filed,Resolved,Mean resolution time,Median resolution time,Resolved overdue,Resolved mean overdue time,Resolved median overdue time,Total overdue,Potentially overdue
+2019,671032,427703,54,32.0,20191,233,16.0,220800,603210
+Pandemic,175660,60610,36,26.0,1972,202,9.0,51384,95534
+June-Sept,149799,47703,27,25.0,1384,13,9.0,38417,70280

@@ -23,7 +23,9 @@ buildings = Building.connection.execute(%Q{
         CAST(count_resolved_filed_since_pandemic AS DOUBLE PRECISION) / CAST(
           count_filed_since_pandemic AS DOUBLE PRECISION)
       )
-    ) AS fix_diff
+    ) AS fix_diff,
+    (CAST(overdue_since_pandemic_rate AS DOUBLE PRECISION) - CAST(
+      overdue_pre_pandemic_rate AS DOUBLE PRECISION)) AS overdue_diff
   FROM buildings
   WHERE count_filed_since_pandemic != (
     SELECT COUNT(*) FROM housing_violations
@@ -32,12 +34,15 @@ buildings = Building.connection.execute(%Q{
   AND count_overdue_filed_since_pandemic > 25
   AND pre_pandemic_mean_resolution_days < 35
   AND pre_pandemic_resolved_count > 10
-  ORDER BY fix_diff DESC
+  ORDER BY overdue_diff DESC
   LIMIT 100
 })
 
 
 ORDERED_FIELDS = [
+  'overdue_diff',
+  'overdue_pre_pandemic_rate',
+  'overdue_since_pandemic_rate',
   'fix_diff',
   'percent_pre_resolved',
   'percent_resolved_during',

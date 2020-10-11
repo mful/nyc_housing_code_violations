@@ -64,9 +64,7 @@ class Importer
   end
 
   def import(violation_data)
-    data = normalize_violation violation_data
-    violation = import_violation data
-    import_building violation, data
+    violation = import_violation violation_data
   end
 
   def import_building(violation, violation_data = {})
@@ -117,8 +115,9 @@ class Importer
   end
 
   def import_violation(violation_data)
+    data = normalize_violation violation_data
     HousingViolation.find(
-      HousingViolation.upsert(violation_data).first['violationid']
+      HousingViolation.upsert(data).first['violationid']
     )
   end
 
